@@ -12,6 +12,16 @@ int main () {
 
     printf("\n You entered: %d:::::%s\n", i, str);
 
+    //you could also use double:
+
+    double x;
+    printf("Enter a double: ");
+    scanf("%lf", &x);//format specifier for double
+    printf("Yoo you Entered: %lf", x);
+
+    //if you use scanf multiple times it in a function it may not work so well, besause when you hit the return/enter button its not gunna read that return button because it only reads up into a word and not gunna get the line feed. So next time you can use scanf its gunna immediately skip that line feed, this is a problem if you write multiple scanf in a single program one after the other. You'll notice that the other scanf aren't executing because they're reading in the line feed.
+
+    
     return 0;
 }
 
