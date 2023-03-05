@@ -11,7 +11,7 @@ int main () {
 
     enum gender herGender = female;
 
-    bool isMale = (myGender == herGender);
+    // bool isMale = (myGender == herGender);
 
     // printf (isMale);
 
