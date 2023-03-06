@@ -19,7 +19,7 @@ int main () {//remember enums are represented by intigers, so you'll get numbers
 
     //the expected output is gunna be intigeers that are represented to the order of these values in the list.
 
-    //enums are pretty cool, they can restrict what is valid for a variable, it provides some validation, also makes your code easier to read.
+    //enums are pretty cool, they can restrict what is valid for a variable, it provides some validation, also makes your code easier to read. 
 
     return 0;
 }
