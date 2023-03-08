@@ -6,6 +6,7 @@
 #define TAXRATE_150 .20
 #define TAXRATE_REST .50
 #define OVERTIME 40
+#define Greet "yeehaa"
 
 /* In this challenge your creating a C program that calculates your weekly pay.
 
